@@ -39,7 +39,8 @@ menu = st.sidebar.selectbox(
         "Filter by Category",
         "Show Total",
         "Category Summary",
-        "Show Categories"
+        "Show Categories",
+        "Delete Expense"
     ]
 )
 
