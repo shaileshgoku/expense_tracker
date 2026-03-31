@@ -150,12 +150,12 @@ elif menu == "Delete Expense":
     else:
         options = [
             f"{i} - {e['category']} - ₹{e['amount']}"
-            for i, e in enumerate(expenses)
+            for i, e in enumerate(expenses, start = 1)
         ]
 
         selected = st.selectbox("Select expense to delete", options)
 
-        index = int(selected.split(" - ")[0])
+        index = int(selected.split(" - ")[0]) - 1
 
         if st.button("Delete"):
             expenses.pop(index)
