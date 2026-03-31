@@ -42,6 +42,8 @@ expense-tracker/
 
 │── data.json
 
+│── main.py
+
 │── app.py
 
 │── README.md
@@ -50,9 +52,13 @@ expense-tracker/
 
 ## ▶️ How to Run
 
-streamlit run app.py
+### 🔹 CLI Version
 
----
+python main.py
+
+### 🔹 Streamlit Version
+
+streamlit run streamlit_app.py
 
 ## 📸 Features Preview
 
