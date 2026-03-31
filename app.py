@@ -139,3 +139,25 @@ elif menu == "Show Categories":
     categories = sorted(set(e["category"] for e in expenses))
     for c in categories:
         st.write(f"- {c}")
+
+# ---------------- DELETION -----------------------
+elif menu == "Delete Expense":
+    st.subheader("Delete Expense")
+
+    if not expenses:
+        st.warning("No expenses available.")
+    else:
+        options = [
+            f"{i} - {e['category']} - ₹{e['amount']}"
+            for i, e in enumerate(expenses)
+        ]
+
+        selected = st.selectbox("Select expense to delete", options)
+
+        index = int(selected.split(" - ")[0])
+
+        if st.button("Delete"):
+            expenses.pop(index)
+            save_data(expenses)
+            st.success("Deleted successfully!")
+            st.rerun()
