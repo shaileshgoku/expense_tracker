@@ -1,0 +1,20 @@
+[
+    {
+        "amount": 5001.0,
+        "category": "clothes",
+        "description": "went to the maxfit showroom",
+        "date": "2026-03-31 12:18:39"
+    },
+    {
+        "amount": 125.0,
+        "category": "food",
+        "description": "brought a juice",
+        "date": "2026-03-31 12:29:47"
+    },
+    {
+        "amount": 500.0,
+        "category": "food",
+        "description": "went to buy mango juice",
+        "date": "2026-03-31 12:34:22"
+    }
+]
