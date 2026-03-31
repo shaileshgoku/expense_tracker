@@ -39,8 +39,11 @@ Built in two versions:
 ## 📂 Project Structure
 
 expense-tracker/
+
 │── data.json
+
 │── app.py
+
 │── README.md
 
 ---
