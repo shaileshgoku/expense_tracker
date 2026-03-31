@@ -58,7 +58,7 @@ python main.py
 
 ### 🔹 Streamlit Version
 
-streamlit run streamlit_app.py
+streamlit run app.py
 
 ## 📸 Features Preview
 
