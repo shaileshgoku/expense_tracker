@@ -131,7 +131,8 @@ def main():
         print("4. Show Total")
         print("5. Category Summary")
         print("6. show categories")
-        print("7. Exit")
+        print("7. Delete expenses")
+        print("8. Exit")
 
         choice = input("Enter your choice: ")
 
